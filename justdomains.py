@@ -57,7 +57,7 @@ def main():
 	remove('header.txt')
 	remove('justdomains.txt')
 
-	chown('db.justdomains', 0, 115)
+	chown('db.justdomains', 0, 114)
 	chmod('db.justdomains', 0o644)
 	move('db.justdomains', '/etc/bind/db.justdomains')
 
