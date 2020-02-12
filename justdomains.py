@@ -59,7 +59,7 @@ def main():
 
 	chown('db.justdomains', 0, 114)
 	chmod('db.justdomains', 0o644)
-	move('db.justdomains', '/etc/bind/db.justdomains')
+	move('db.justdomains', '/etc/bind/svarthal/db.justdomains')
 
 if __name__ == '__main__':
 	main()
